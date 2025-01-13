@@ -1,0 +1,47 @@
+*  {
+    padding: 0px; 
+    margin: 0px; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #110c45;
+    color: #fff;
+}
+
+.rotas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    margin-top:200px;
+    gap: 10px;
+}
+
+.link { 
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #b866fa;
+}
+
+.signup-input { 
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.signup-form { 
+    gap: 5px;
+}
+
+.signup-btn { 
+    padding: 3px;
+    background-color: #fff;
+    color: #000;
+    border: solid 3px;
+    border-radius: 8px;
+}
+
+.signup-btn:hover { 
+    border-color: #b866fa;
+    cursor: pointer;
+}
